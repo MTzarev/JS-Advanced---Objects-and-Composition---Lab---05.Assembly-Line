@@ -1,5 +1,4 @@
 function createAssemblyLine() {
- 
   return {
     hasClima: (car) => {
       car.temp = 21;
@@ -10,7 +9,6 @@ function createAssemblyLine() {
         } else if (car.temp > car.tempSettings) {
           car.temp--;
         }
- 
       };
     },
     hasAudio: (car) => {
